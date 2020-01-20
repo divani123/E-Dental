@@ -40,7 +40,7 @@ h1{
 	height: 100%;
 	background: rgba(2, 70, 88, 0.8);
 	transition: all 500ms ease;
-}
+}*/
 
 .model{
 	width: 500px;
@@ -55,5 +55,57 @@ background: antiquewhite;
 border: 2px solid #222;
 padding: 20px;
 
-}*/
+}
+
+.modal_header{
+	width: 100%;
+	display: block;
+	height: 60px;
+	margin-bottom: 30px;
+	color: cadetblue;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+input{
+	
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	background: lightskyblue;
+	border-radius: 5px;
+	border: 0;
+	font-size: 9pt;
+	box-shadow: lightskyblue;
+}
+
+.close{
+
+	position: absolute;
+	border: 2px solid #333;
+	padding: 7px 9px 11px 9px;
+	text-decoration: none;
+	top: 20px;
+	right: 20px;
+	border-radius: 10%;
+	transition: background 500ms;
+	
+	
+}
+
+.close:hover{
+	background: red;
+}
+
+.modal-title{
+	width: 100%;
+	color: dodgerblue;
+	display: block;
+	height: 60px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
 

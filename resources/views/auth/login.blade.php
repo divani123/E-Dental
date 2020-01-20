@@ -1,41 +1,12 @@
-
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Login</title>
-	<link rel="stylesheet" type="text/css" href="css/login.css">
-		
-</head>
-<body>
-	<div class="login-box">
-	<h1>Login Here</h1>
-		
-	<form action="#" method="post">
-	
-		<p>Email Address</p>
-		<input type="text" name="email" placeholder="Enter Your Email">
-
-		<p>Password</p>
-		<input type="text" name="password" placeholder="Enter Password">
-
-		<input type="submit" name="submit" value="Login">
-
-		<a href="#">Forget Password?</a><br>
-
-		<div class="regi"><p>If you have no account, please <a href="register">Register.!!</a></p><br>
-		<p>Back to <a href="index">Home</a></p></div>
-	</form>
-
-	</div>
-
-	<!--@section('content')
+@extends('layouts.app')
+@section('content')
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
+            <div class="card card border-dark">
+                <div class="card-header bg-dark text-white md-3">{{ __('Login') }}</div>
 
-                <div class="card-body">
+                <div class="card-body text-dark">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
 
@@ -98,7 +69,4 @@
         </div>
     </div>
 </div>
-@endsection-->
-
-</body>
-</html>
+@endsection

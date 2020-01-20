@@ -68,7 +68,15 @@
 	<div class="row">
 		<div class="col-8">
 			<h2 style="color:#17a2b8"><center>Channel Your Doctor Now..</center></h2>
-			<form action="appoinment.php" method="post">
+			
+     <!-- @foreach($errors->all() as $error)
+<div class="alert alert-danger" role="alert">
+{{$error }}
+
+</div>
+          @endforeach-->
+      <form action="/saveAppointment"  method="post">
+      {{csrf_field()}}
 				<!--<label for="firstname" style="font-weight: 600"><b>First Name</b></label>-->
 				<input class="form-control" type="text" name="firstname" required placeholder="First Name">
 
@@ -82,30 +90,18 @@
 				<input class="form-control" type="text" name="phonenumber" required placeholder="Phone Number">
 
 				<!--<label for="Doctorname" style="font-weight: 600"><b>Doctor Name</b></label>-->
-				<input class="form-control" type="text" name="password" required placeholder="Doctor Name">
+				<input class="form-control" type="text" name="doctorname" required placeholder="Doctor Name">
 
-				<!--<label for="Speciality" style="font-weight: 600"><b>Speciality-Description</b></label><br>-->
-				<!--<select name="Select Speciality">
-					<option>Select Speciality</option>
-					<option>Art Therapist</option>
-					<option>Ayurweda Consultant</option>
-					<option>Dentist</option>
-					<option>Cardiologist</option>
-					<option>Demotologist</option>
-					<option>Eye Surgon</option>
-					<option>Neuro Surgon</option>
-					<option>Oncologist</option>
-					<option>Orthopaedic Surgon</option>
-					<option>Paediatrician</option>
-					<option>physician</option>
-					<option>physiotherapist</option>
-					<option>Radiologist</option>
-					<option>VOG</option></select><br>-->
+				
+<textarea name="message" id="" cols="30" rows="10" class="form-control" required placeholder="Message"></textarea>
+        <div class="col-lg-offset-4">
+        Upload Previous Repots (If You Have)
 
-				<!--<label for="Date" style="font-weight: 600"><b>Date</b></label>-->
-				<input class="form-control" type="text" name="Date" required="" placeholder="Date"><br><br>
+      <input class="form-control" type="file" name="image"><br>
 
-				<input  class="btn btn-primary px-4 py-3" type="submit" name="create" value="Make an Appointment" data-submit="...Sending">
+        </div>
+
+				<input  class="btn btn-primary px-4 py-3" type="submit" name="create" value="Make an Appointment" >
 				<!--<a href="doctors.php"><input  class="btn btn-primary" type="submit" name="search" value="Search Doctors" ></a>-->
 					
 				

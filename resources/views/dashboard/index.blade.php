@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -78,7 +79,7 @@
         <div id="collapseDoctors" class="collapse" aria-labelledby="headingDoctors" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Custom Components:</h6>
-            <a class="collapse-item" href="dashboard/utilities-color">Colors</a>
+            <a class="collapse-item" href="dashboard/utilities-color">Doctor Management</a>
             <!--<a class="collapse-item" href="dashboard/utilities-border">Borders</a>
             <a class="collapse-item" href="dashboard/utilities-animation">Animations</a>
             <a class="collapse-item" href="dashboard/utilities-other">Other</a>-->
@@ -102,8 +103,8 @@
         </a>
         <div id="collapsePatient" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Login Screens:</h6>
-            <a class="collapse-item" href="dashboard/login">Login</a>
+            <!--<h6 class="collapse-header">Custom Components:</h6>-->
+            <a class="collapse-item" href="dashboard/utilities-other">Patient Management</a>
             <!--<a class="collapse-item" href="dashboard/register">Register</a>
             <a class="collapse-item" href="dashboard/forgot-password">Forgot Password</a>
             <div class="collapse-divider"></div>-->
@@ -316,13 +317,13 @@
             <div class="topbar-divider d-none d-sm-block"></div>
 
             <!-- Nav Item - User Information -->
-            <li class="nav-item dropdown no-arrow">
-              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Valerie Luna</span>
-                <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
+            <!--<li class="nav-item dropdown no-arrow">-->
+              <!--<a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Hello!!</span>-->
+                <!--<img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">-->
               </a>
               <!-- Dropdown - User Information -->
-              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+              <!--<div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
                 <a class="dropdown-item" href="#">
                   <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                   Profile
@@ -340,12 +341,12 @@
                   <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                   Logout
                 </a>
-              </div>
-            </li>
+              </div>-->
+            <!--</li>
 
           </ul>
 
-        </nav>
+        </nav>-->
         <!-- End of Topbar -->
 
         <!-- Begin Page Content -->
@@ -367,7 +368,7 @@
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
                       <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Years of Experiences</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">14</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">3</div>
                     </div>
                     <div class="col-auto">
                       <i class="fas fa-calendar fa-2x text-gray-300"></i>
@@ -384,7 +385,7 @@
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
                       <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Qualified Dentist</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">4</div>
                     </div>
                     <div class="col-auto">
                       <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
@@ -403,7 +404,7 @@
                       <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Happy Smilling Customers</div>
                       <div class="row no-gutters align-items-center">
                         <div class="col-auto">
-                          <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">50%</div>
+                          <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">40 per day</div>
                         </div>
                         <div class="col">
                           <div class="progress progress-sm mr-2">
@@ -427,7 +428,7 @@
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
                       <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Patients per Year</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">14,600</div>
                     </div>
                     <div class="col-auto">
                       <i class="fas fa-comments fa-2x text-gray-300"></i>
@@ -441,40 +442,55 @@
           <!-- Content Row -->
 
           <div class="row">
+          <div class="card">
+          <div class="card-header">
+          gggggggg
+          </div>
+          
+          <div class="card-body">
+          
+          </div>
 
+          <div class="card-footer">
+          
+          </div>
+
+
+          </div>
+          </div>
             <!-- Area Chart -->
-            <div class="col-xl-8 col-lg-7">
-              <div class="card shadow mb-4">
+            <!--<div class="col-xl-8 col-lg-7">
+              <div class="card shadow mb-4">-->
                 <!-- Card Header - Dropdown -->
-                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h6 class="m-0 font-weight-bold text-primary">Earnings Overview</h6>
+                <!--<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary">Veiw Admin</h6>
                   <div class="dropdown no-arrow">
                     <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
                     </a>
-                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
-                      <div class="dropdown-header">Dropdown Header:</div>
-                      <a class="dropdown-item" href="#">Action</a>
+                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">-->
+                      <!--<div class="dropdown-header">Dropdown Header:</div>-->
+                      <!--<a class="dropdown-item" href="#">Action</a>
                       <a class="dropdown-item" href="#">Another action</a>
                       <div class="dropdown-divider"></div>
                       <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                   </div>
-                </div>
+                </div>-->
                 <!-- Card Body -->
-                <div class="card-body">
+                <!--<div class="card-body">
                   <div class="chart-area">
                     <canvas id="myAreaChart"></canvas>
                   </div>
                 </div>
               </div>
-            </div>
+            </div>-->
 
             <!-- Pie Chart -->
-            <div class="col-xl-4 col-lg-5">
-              <div class="card shadow mb-4">
+            <!--<div class="col-xl-4 col-lg-5">
+              <div class="card shadow mb-4">-->
                 <!-- Card Header - Dropdown -->
-                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                <!--<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                   <h6 class="m-0 font-weight-bold text-primary">Revenue Sources</h6>
                   <div class="dropdown no-arrow">
                     <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -488,9 +504,9 @@
                       <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                   </div>
-                </div>
+                </div>-->
                 <!-- Card Body -->
-                <div class="card-body">
+                <!--<div class="card-body">
                   <div class="chart-pie pt-4 pb-2">
                     <canvas id="myPieChart"></canvas>
                   </div>
@@ -508,7 +524,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div>-->
 
           <!-- Content Row -->
           <div class="row">
@@ -639,7 +655,7 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Your Website 2019</span>
+            <!--<span>Copyright &copy; Your Website 2019</span>-->
           </div>
         </div>
       </footer>
